@@ -1,20 +1,22 @@
 import "./index.css";
 
+const base = import.meta.env.BASE_URL;
+
 const artworkItems = [
   {
     title: "Tom Wellstone JusTice",
     subtitle: "Art by Tom Wellstone",
-    image: "/art/justice-the-almighty.jpg",
+    image: `${base}art/justice-the-almighty.jpg`,
   },
   {
     title: "Billie Eilish JusTice - Sexy Vampire",
     subtitle: "Art by Tom Wellstone",
-    image: "/art/sexy-vampire.png",
+    image: `${base}art/sexy-vampire.png`,
   },
   {
     title: "Billie Eilish JusTice - Little Queen",
     subtitle: "Art by Tom Wellstone",
-    image: "/art/little-queen.jpg",
+    image: `${base}art/little-queen.jpg`,
   },
 ];
 
@@ -47,7 +49,7 @@ export default function App() {
         <header className="topbar">
           <a href="#" className="brand-lockup">
             <img
-                src="/branding/justice-mark.png"
+                src={`${base}branding/justice-mark.png`}
                 alt="Justice Studios lion crest"
                 className="brand-mark"
             />
@@ -72,13 +74,13 @@ export default function App() {
             <div className="hero-copy">
               <p className="hero-kicker">Art · Music · Identity</p>
               <h2>
-               Tom Wellstone.
+                Tom Wellstone.
                 <span>JusTice Studios.</span>
               </h2>
               <p className="hero-text">
-                Tom Wellstone is Alternative Rock Musciain illustaror gamer, and vlogger focues on delivering,
-                not only music but lifestyle motives too, welcome to join me
-                in my journey.
+                Tom Wellstone is Alternative Rock Musciain illustaror gamer, and
+                vlogger focues on delivering, not only music but lifestyle motives
+                too, welcome to join me in my journey.
               </p>
 
               <div className="hero-actions">
@@ -93,7 +95,7 @@ export default function App() {
 
             <div className="hero-visual">
               <img
-                  src="/branding/justice-mark.png"
+                  src={`${base}branding/justice-mark.png`}
                   alt="Justice Studios crest"
                   className="hero-logo"
               />
@@ -107,9 +109,9 @@ export default function App() {
               <p className="section-copy">
                 Tom Wellstone - Dye the latest EP releasing from JusTice Studios,
                 Alternative Rock, trying to express things that happened
-                throughout my life in latest events. Along with mutual
-                feelings of anger that anyone might be able to relate to.
-                Welcome to listen to my album and express your opinion.
+                throughout my life in latest events. Along with mutual feelings of
+                anger that anyone might be able to relate to. Welcome to listen to
+                my album and express your opinion.
               </p>
             </div>
 
@@ -117,9 +119,7 @@ export default function App() {
               <div className="release-card release-copy-card">
                 <p className="release-label">Now Streaming</p>
                 <h4 className="release-title">Dye</h4>
-                <p className="release-text">
-                  Tom Wellstone - Dye.
-                </p>
+                <p className="release-text">Tom Wellstone - Dye.</p>
 
                 <div className="platform-row">
                   {socialLinks.map((link) => (
@@ -155,10 +155,9 @@ export default function App() {
               <p className="section-tag">Artwork</p>
               <h3>Tom Wellstone illustartions.</h3>
               <p className="section-copy">
-                Tom Wellstone trying to walk in the fine line of modern art,
-                hand made illustrations.
-                both digital and human made. Welcome to watch the rotating gallery of my presented
-                artworks.
+                Tom Wellstone trying to walk in the fine line of modern art, hand
+                made illustrations. both digital and human made. Welcome to watch
+                the rotating gallery of my presented artworks.
               </p>
             </div>
 
