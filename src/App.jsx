@@ -54,7 +54,7 @@ export default function App() {
                 className="brand-mark"
             />
             <div>
-              <p className="eyebrow">Creative Studio</p>
+              <p className="eyebrow">Tom Wellstone</p>
               <h1 className="brand-name">Justice Studios</h1>
             </div>
           </a>
