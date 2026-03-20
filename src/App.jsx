@@ -78,8 +78,8 @@ export default function App() {
                 <span>JusTice Studios.</span>
               </h2>
               <p className="hero-text">
-                Tom Wellstone is Alternative Rock Musciain illustaror gamer, and
-                vlogger focues on delivering, not only music but lifestyle motives
+                Tom Wellstone is Alternative Rock Musician illustrator gamer, and
+                vlogger focuses on delivering, not only music but lifestyle motives
                 too, welcome to join me in my journey.
               </p>
 
